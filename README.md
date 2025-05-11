@@ -7,6 +7,15 @@
 
 A Zeebe worker to make HTTP calls (e.g. invoking a REST service). It is based on the built-in Java HttpClient.
 
+## Business Importance
+Enables seamless integration with external systems via HTTP calls, automating workflows and reducing manual effort.
+
+## Customer Value
+Simplifies external service integration, reduces development time, and enhances process reliability.
+
+## System Context
+Extends Zeebe's capabilities, integrates with the Zeebe broker, and supports dynamic environments for diverse deployment scenarios.
+
 ## Usage
 
 ### BPMN Task
@@ -89,7 +98,7 @@ To allow this, the `jobKey` can be passed to the external service.
 
 ### Docker
 
-The docker image for the worker is published to [GitHub Packages](https://github.com/orgs/camunda-community-hub/packages/container/package/zeebe-http-worker).
+The docker image for the worker is published to [GitHub Packages](https://github.com/camunda-community-hub/packages/container/package/zeebe-http-worker).
 
 ```
 docker pull ghcr.io/camunda-community-hub/zeebe-http-worker:1.0.0
